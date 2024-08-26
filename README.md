@@ -1,4 +1,10 @@
-# Youtubeyoutube
+# YouTubeYoutube
+Another YouTube custom web interface heavily inspired from NicoNico app for Nintendo Switch built with Angular.
+
+## Disclaimer
+YouTube is a trademark of Google LLC. YouTubeYouTube uses the YouTube API and this project is not affiliated with, endorsed, sponsored, or otherwise supported by Google or YouTube.
+
+## Angular README
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.1.
 
