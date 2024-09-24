@@ -1,6 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
-$light-background: #F3F3F3;
-$dark-background: #0F0F0F;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$background: #0F0F0F;
 
 @font-face {
     font-family: 'Roboto';
@@ -11,10 +14,6 @@ $dark-background: #0F0F0F;
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: $light-background;
-
-    @media (prefers-color-scheme: dark) {
-        background-color: $dark-background;
-        color: white;
-    }
+    background-color: $background;
+    color: white;
 }
